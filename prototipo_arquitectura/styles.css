@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4e2bf;
+    color: #000;
+}
+
+header {
+    background-color: #cbbd99;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    padding-top: 80px;
+}
+
+.login-container {
+    background-color: #e6cc9f;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #cbbd99;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #b3a281;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.date-input label, 
+.passenger-input label {
+    display: block;
+    font-size: 14px;
+    color: #000;
+}
+
+.date-input input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.passenger-input {
+    text-align: center;
+}
+
+.counter {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-button {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    padding: 5px 10px;
+    background-color: #e6cc9f;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #b3a281;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reserva-conainer{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
